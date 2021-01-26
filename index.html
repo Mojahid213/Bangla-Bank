@@ -20,6 +20,54 @@
         </div>
     </div>
 
+    <div id="transition-area">
+       <div class="container mt-5">
+           <!-- The Status sectiion -->
+            <div class="row">
+                <div class="col-md-4 gy-3">
+                   <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2>$<span id="DepositMoney">00</span></h2>
+                   </div>
+                </div>
+                <div class="col-md-4 gy-3">
+                   <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$<span id="withdrawMoney">00</span></h2>
+                   </div>
+                </div>
+                <div class="col-md-4 gy-3">
+                   <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$<span id="BalanceMoney">750</span></h2>
+                   </div>
+                </div>
+            </div>
+            <!--!! The Status sectiion !!-->
+
+            <!-- The Amount Section -->
+            <div class="AmountSection mt-5">
+                <div class="row">
+                    <div class="col-md-6 g-3">
+                        <div class="status form-div">
+                            <h4 class="text-dark">Deposit</h4>
+                        <input id="DepositInput" class="form-control" type="text" placeholder="$ Amount you want to deposit">
+                        <button id="AddDeposit" class="btn btn-success mt-3">Deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-3">
+                       <div class="status form-div">
+                        <h4 class="text-dark">Withdraw</h4>
+                        <input id="withdrawInput" class="form-control" type="text" placeholder="$ Amount you want to withdraw">
+                        <button id="withdrawBtn" class="btn btn-success mt-3">Withdraw</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <!--!! The Amount Section !!-->
+       </div>
+    </div>
+
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/custom.js"></script>

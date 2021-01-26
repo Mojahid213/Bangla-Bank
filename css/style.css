@@ -1,5 +1,30 @@
+body{
+    padding:50px;
+}
+
+/* Global class */
+.status{
+    color:white;
+    border-radius:5px;
+    padding: 30px;
+    margin:0px 20px;
+}
+/* Global class */
+#transition-area{
+    display: none;
+}
 .form-div{
     border: 0;
     border-radius: 5px;
     box-shadow: 5px 5px 10px gray;
+}
+
+.deposit{
+    background-color: rgb(130, 5, 214);
+}
+.withdraw{
+    background-color:lightcoral;
+}
+.balance{
+    background-color:rgb(0, 138, 131);
 }
